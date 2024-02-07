@@ -8,19 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="src/reset.scss" />
+    <link rel="stylesheet" href="src/scss/reset.scss" />
     <link rel="stylesheet" href="src/style.scss" />
     <title>NFT preview card component</title>
   </head>
   <body>
     <main>
       <div class="card">
-        <img src="src/public/images/image-equilibrium.jpg" alt="image-equilibrium" />
+        <div class="content-img">
+          <img src="src/public/images/image-equilibrium.jpg" class="equilibrium" alt="image-equilibrium" />
+        </div>
+
         <h1>Equilibrium #3429</h1>
         <p>Our Equilibrium collection promotes balance and calm.</p>
         <div class="ethereum-values">
           <div class="ethereum">
-            <img src="src/public/images/icon-ethereum.svg" alt="icon-ethereum" />
+            <img src="src/public/images/icon-ethereum.svg" alt="icon-Ethereum" />
             <span class="value-ethereum"> 0.041 ETH </span>
           </div>
           <div class="clock">
@@ -37,7 +40,8 @@
       </div>
     </main>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">gih</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="#">Gisélida Cristine de melo </a>.
     </div>
   </body>
 </html>
