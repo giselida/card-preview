@@ -58,6 +58,10 @@ body {
         color: var(--color-white);
         width: 100%;
         max-width: 300px;
+        &:hover {
+          color: var(--color-cyan);
+          cursor: pointer;
+        }
       }
       p {
         font-size: 20px;
@@ -117,6 +121,10 @@ body {
         }
         .bold {
           color: var(--color-white);
+          &:hover {
+            color: var(--color-cyan);
+            cursor: pointer;
+          }
         }
         img {
           width: 100%;
