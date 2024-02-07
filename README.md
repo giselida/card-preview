@@ -87,6 +87,7 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 |    CSS Box Model     |
 |   Size Properties    |
 |       Flex-box       |
+|      mixins     |
 
 
 </div>

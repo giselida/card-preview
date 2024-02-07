@@ -115,6 +115,7 @@ body {
       }
       .second-card {
         @include display-align-content();
+        margin-bottom: 10px;
         .light {
           color: var(--color-soft-blue);
           margin-right: 10px;
