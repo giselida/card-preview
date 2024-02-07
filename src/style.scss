@@ -39,7 +39,7 @@ body {
         }
         &:hover::before {
           @include display-align-content(center);
-          content: url(public/images/icon-view.svg);
+          content: url(../assets/images/icon-view.svg);
           position: absolute;
           background-color: #ffffff7d;
           border-radius: 10px;
